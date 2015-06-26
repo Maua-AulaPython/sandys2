@@ -1,0 +1,7 @@
+Nota: 2.0
+Comentario: Apesar de ter criado no modelo uma relação Device->Medida, na hora
+de inserir uma nova medida obrigatoriamente é criado um novo device. Logo nunca
+teremos um device com medidas ao longo do tempo e sim diversos Devices com uma
+única medida. Também fiz uma pequena correçao na identacao da definicao do modelo
+senão o projeto nao iria rodar. Bonus points pelo nome dos modulos de
+modelo/server

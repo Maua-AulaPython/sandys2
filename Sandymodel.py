@@ -10,8 +10,8 @@ class Device(db.Model):
 	valor =db.relationship('Measure')
 
 class Measure(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    device_id = db.Column(db.Integer, db.ForeignKey('device.id'))
-    temp = db.Column(db.Integer)
-    umidade = db.Column(db.Integer)
+	id = db.Column(db.Integer, primary_key=True)
+	device_id = db.Column(db.Integer, db.ForeignKey('device.id'))
+	temp = db.Column(db.Integer)
+	umidade = db.Column(db.Integer)
 	date = db.Column(db.DateTime)
